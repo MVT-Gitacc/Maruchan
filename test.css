@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Heartless";
+  src: url("Heartless.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "HelpMe";
+  src: url("HelpMe.ttf") format("TrueType");
+}
+
+p {
+  font-family: "Heartless";
+  font-size: 32px;
+  color: red;
+  text-align: center;
+  background color: black;
+  text-shadow: 3px 3px 2px white;
+}
+
+.bigtext {
+  font-family: "Heartless";
+  color: red;
+  text-align: left;
+  font-size: 6em;
+}
+}
+
+.bigtextlight {
+  font-family: "Heartless";
+  color: #red;
+  text-align: left;
+  font-size: 6em;
+}
+
+.smalltext {
+  font-family: "Heartless";
+  color: red;
+  text-align: right;
+  font-size: 25px;
+}
+
+
+
+
+.spooptext {
+  font-family: "HelpMe";
+  color: #400000;
+  text-align: right;
+  font-size: 25px;
+}
+.spooptextsmol {
+  font-family: "HelpMe";
+  color: #400000;
+  text-align: right;
+  font-size: 18px;
+}
+img {
+  .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+}
