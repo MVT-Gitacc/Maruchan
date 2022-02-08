@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 1000vh;
+}
+
+.top {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  margin-top: 10px;
+  line-height: 150px;
+  color: lime;
+  gap: 10px;
+gap: 10px 20px;
+row-gap: 10px;
+column-gap: 20px;
+  font-weight: bold;
+  font-size: 8em;
+  text-align: topleft;
+}
+
+.center {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  gap: 10px;
+gap: 10px 20px;
+row-gap: 10px;
+column-gap: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  margin-top: 10px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 15em;
+  text-align: center;
+  gap: 10px;
+gap: 10px 20px;
+row-gap: 10px;
+column-gap: 20px;
+}
+
+.topleft {
+  background-color: teal;
+  flex: 1;
+}
+
+.topmiddle {
+  background-color: yellow;
+  flex: 1;
+}
+
+.topright {
+  background-color: cyan;
+  flex: 1;
+}
+
+.middleleft {
+  background-color: magenta;
+  flex: 1;
+}
+
+.middlemiddle {
+  background-color: purple;
+  flex: 1;
+}
+
+.middleright {
+  background-color: blue;
+  flex: 1;
+}
+
+.bottomleft {
+  background-color: saddlebrown;
+  flex: 1;
+}
+
+.bottommiddle {
+  background-color: orange;
+  flex: 1;
+}
+
+.bottomright {
+  background-color: tan;
+  flex: 1;
+}
+.flex-item {
+  background: black;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
