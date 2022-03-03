@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Heartless";
+  src: url("Heartless.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "HelpMe";
+  src: url("HelpMe.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "FallenJones";
+  src: url("FallenJones.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "My_handwriting";
+  src: url("My_handwriting.ttf") format("TrueType");
+}
+
+.bigtext {
+  font-family: "FallenJones";
+  color: sienna;
+  text-align: left;
+  font-size: 5em;
+}
+
+.bigtextlight {
+  font-family: "Heartless";
+  color: #red;
+  text-align: left;
+  font-size: 4em;
+}
+
+.smalltext {
+  font-family: "Heartless";
+  color: red;
+  text-align: right;
+  font-size: 25px;
+}
+
+.sistext {
+  font-family: "My_handwriting";
+  color: DarkSlateBlue;
+  text-align: right;
+  font-size: 70px;
+}
+
+.bigtextmad {
+  font-family: "FallenJones";
+  color: red;
+  text-align: left;
+  font-size: 125px;
+}
+
+img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#first {
+	width: 100vw;
+  height: 100vh;
+}
+
+#second {
+	width: 100vw;
+  height: 100vh;
+}
+
+#third {
+  width: 100vw;
+  height: 100vh;
+}
+
+#fourth {
+  width: 100vw;
+  height: 100vh;
+}
+
+.animation-element {
+	position: relative;
+	background-color: white;
+}
